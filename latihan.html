@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>Test HTML 1</title>
+</head>
+
+<!-- CSS -->
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <h1>Test 1</h1>
+    <p>Test latihan website <b><i>pertama</i></b></p>
+
+    <!-- unordered list -->
+    <ol type="1">
+        <li>Satu</li>
+        <li>Dua</li>
+
+    </ol>
+
+    <!-- membuat table -->
+    <!--    tr : Table rows
+            th : Table head
+            td : Table data
+
+    -->
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td colspan="3"> <!-- Merge cels-->
+                <center>Dimas 10 TKP</center>
+            </td>
+        </tr>
+
+    </table>
+
+    <!-- Absolut link-->
+    <p>
+    <a href="http://website.com"> Link website</a>
+    </p>
+    <!-- Internal link-->
+    <p>
+        <a href="latihan.html">Link Internal</a>
+    </p>
+
+    <!-- Memasukan image -->
+    <p>
+        <img src="logo.png" alt="" width="150" height="150">
+    </p>
+    <p>
+        <!-- Membuat Forms-->
+        <form action="" method="post">
+            <label for="name">Nama :</label>
+            <input id="name" type="text">
+            <br/>
+            <label for="password"> Password :</label>
+            <input type="password" required>
+            <br/>
+            <label for="checkbox">Pilih</label>
+            <input type="checkbox">
+            <br/>
+            <label for="radio">Pilih</label>
+            <input type="radio">
+            <br/>
+            <textarea name="" id="" cols="64" rows="8"></textarea>
+            <br/>
+            <input type="submit" value="OK">
+
+        </form>
+    </p>
+    <p>
+        <!-- Membuat Button-->
+        <button type="button"> OK</button>
+        <button type="button" onclick="doSomething();">Apply</button>
+    </p>
+    <p>
+        <!-- Pengoperasian Radio Button-->
+        <input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="html" name="fav_lang" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="html" name="fav_lang" value="PHP">
+        <label for="html">PHP</label><br>
+    </p>
+    <p>
+        <!-- Membuat Form Select-->
+        Apa warna favoritmu?
+    </p>
+    <select name="" id="">
+        <option value="">Merah</option>
+        <option value="">Kuning</option>
+        <option value="">Hijau</option>
+    </select>
+</body>
+</html>
